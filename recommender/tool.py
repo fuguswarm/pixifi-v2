@@ -1,5 +1,5 @@
 import pandas as pd
-from .utils import get_defillama_data
+from recommender.utils import get_defillama_data
 
 df = pd.read_csv("defillama_protocols_clean.csv")
 
