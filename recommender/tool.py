@@ -1,7 +1,7 @@
 import pandas as pd
 from recommender.utils import get_defillama_data
 
-df = pd.read_csv("defillama_protocols_clean.csv")
+df = pd.read_csv("./defillama_protocols_clean.csv")
 
 def recommend(input_text):
     input_text = input_text.strip().lower()
